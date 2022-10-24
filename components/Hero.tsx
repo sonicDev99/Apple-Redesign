@@ -1,5 +1,5 @@
 import Image from 'next/image';
-// import Button from "./Button";
+import Button from './Button';
 
 const Hero = () => {
     return (
@@ -14,7 +14,7 @@ const Hero = () => {
                 </h1>
 
                 <div className="space-x-8">
-                    {/* <Button title="Buy Now" /> */}
+                    <Button title="Buy Now" />
                     <a className="link">Learn More</a>
                 </div>
             </div>
